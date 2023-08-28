@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: 'main', credentialsId: "LeeJin-token" ,url: 'https://github.com/dkwktm45/test-chaza2'
+                git branch: 'main', credentialsId: "LeeJin-token" ,url: 'https://github.com/zero-base-study/chazachaza/tree/LeeJinYoung'
 
                 script {
                     sh 'chmod +x ./gradlew'
