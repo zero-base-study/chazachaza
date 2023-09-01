@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        HYOBIN_DOCKER_HUB_USER_NAME = hellmir
+        HYOBIN_DOCKER_HUB_USER_NAME = 'hellmir'
         EC2_DEPLOY_PATH = '/home/ubuntu'
         EC2_IP = '13.125.242.255'
     }
